@@ -1,0 +1,29 @@
+﻿@{       
+    ViewData["Title"] = "Ask Question";
+}
+<h2 style="text-align: center; margin-top: 20px;">Ask a Public Question</h2>
+<form action="" class="d-flex justify-content-space-between align-items-center" style="flex-direction: column; margin-top: 10vh;">
+    <div class="title-div">
+        <label for="title1" style="font-weight: bolder;">Question Title:</label>
+        <br>
+        <input type="text" required id="title1" style="font-weight: bolder; width:40vw;">
+    </div>
+    <div class="qs-div" style="margin-top: 30px">
+        <label for="qs" style="font-weight: bolder;">Description:</label>
+        <br>
+        <textarea required name="" id="" cols="65" rows="10"></textarea>
+    </div>
+    <div class="opt-grp" style="margin-top: 30px;">
+        <label for="subject" style="font-weight: bolder;">Choose Subject:</label>
+        <br>
+        <select name="" id="subject" style="width: 40vw; height: 5vh;">
+            <option value="">Exam</option>
+            <option value="Admission">Admission</option>
+            <option value="">Job</option>
+            <option value="Study">Study</option>
+            <option value="">Information</option>
+            <option value="">Events</option>
+        </select>
+    </div>
+    <button class="btn btn-success" value="submit" style="width:10vw; margin-top: 30px ;">Submit</button>
+</form>
