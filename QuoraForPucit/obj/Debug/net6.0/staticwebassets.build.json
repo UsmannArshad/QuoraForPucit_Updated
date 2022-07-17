@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kyzflPU3cGwc4SXnPFyo1flYVUkFzAxRQoH6vgjCd0w=",
+  "Hash": "0DvprFy6H/rteEetBoDKZIoMdqJu0XSISipvc4hKZ6Y=",
   "Source": "QuoraForPucit",
   "BasePath": "_content/QuoraForPucit",
   "Mode": "Default",
@@ -780,6 +780,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\contact.css"
+    },
+    {
+      "Identity": "D:\\QuoraForPucit\\QuoraForPucit\\wwwroot\\css\\profile.css",
+      "SourceId": "QuoraForPucit",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\QuoraForPucit\\QuoraForPucit\\wwwroot\\",
+      "BasePath": "_content/QuoraForPucit",
+      "RelativePath": "css/profile.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\profile.css"
     },
     {
       "Identity": "D:\\QuoraForPucit\\QuoraForPucit\\wwwroot\\css\\site.css",
@@ -58801,6 +58818,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Quora-for-Marketing.png"
+    },
+    {
+      "Identity": "D:\\QuoraForPucit\\QuoraForPucit\\wwwroot\\images\\redbg.jpg",
+      "SourceId": "QuoraForPucit",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\QuoraForPucit\\QuoraForPucit\\wwwroot\\",
+      "BasePath": "_content/QuoraForPucit",
+      "RelativePath": "images/redbg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\redbg.jpg"
     },
     {
       "Identity": "D:\\QuoraForPucit\\QuoraForPucit\\wwwroot\\js\\app.js",

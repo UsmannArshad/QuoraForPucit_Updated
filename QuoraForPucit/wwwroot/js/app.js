@@ -6,11 +6,13 @@ for (let i = 0; i < collection.length; i++) {
         if (collection[i].style.backgroundColor !="rgb(2, 117, 216)")
     {
             collection[i].style.backgroundColor = "rgb(2, 117, 216)";
+            collection[i].style.color="rgb(255,255,255)"
             collection1[i].disabled = true;
     }
     else
     {
             collection[i].style.backgroundColor = "rgb(255,255,255)";
+            collection[i].style.color = "rgb(0,0,0)"
             collection1[i].disabled = false;
     }  
   }
@@ -20,11 +22,13 @@ for (let i = 0; i < collection1.length; i++) {
       if (collection1[i].style.backgroundColor !="rgb(217, 83, 79)")
     {
           collection1[i].style.backgroundColor = "rgb(217, 83, 79)";
+          collection1[i].style.color = "rgb(255,255,255)"
           collection[i].disabled = true;
     }
     else
     {
           collection1[i].style.backgroundColor = "rgb(255,255,255)";
+          collection1[i].style.color = "rgb(0,0,0)"
           collection[i].disabled = false;
     }  
   }

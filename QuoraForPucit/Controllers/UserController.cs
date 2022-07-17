@@ -20,14 +20,15 @@ namespace QuoraForPucit.Controllers
         {
             if (ModelState.IsValid)
             {
-                bool check = UserRepository.IsUsernameUnique(u.Username);
+                bool check = UserRepository.IsUsernamenotUnique(u.Username);
                 if (check == true)
                 {
-                    return View("MainPage");
+                    return View("DeniedSignUp");
                 }
                 else
                 {
-                    return View("DeniedSignUp");
+                    UserRepository.AddUser(u);
+                    return View("MainPage");
                 }
             }
             else
@@ -42,7 +43,7 @@ namespace QuoraForPucit.Controllers
             //return RedirectToAction("Index", "Home");
         }
         [HttpPost]
-        public ViewResult SignIn(string username, int password)
+        public ViewResult SignIn(string username, string password)
         {
 
             bool check = UserRepository.CheckCredentials(username, password);
@@ -71,6 +72,10 @@ namespace QuoraForPucit.Controllers
             return View();
         }
         public ViewResult AskQuestion()
+        {
+            return View();
+        }
+        public ViewResult Profile()
         {
             return View();
         }

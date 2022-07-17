@@ -1,5 +1,6 @@
 ﻿body {
-    background: url(../images/background.jpg);
+    /* background: url(../images/redbg.jpg);*/
+    background: #dcdcdc !important;
     background-repeat: no-repeat;
     background-size: 100%;
     opacity: 0.8;
